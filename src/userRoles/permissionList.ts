@@ -1,0 +1,27 @@
+const permissionList = {
+  JOURNAL: "Journal",
+  POS_BILLING: "PosBilling",
+  PURCHASE: "Purchase",
+  SALES: "Sales",
+  BANK_CASH: "BankCash",
+  LEDGER: "Ledger",
+  GROUP_LEDGER: "GroupLedger",
+  DAY_BOOK: "DayBook",
+  TRAIL_BALANCE: "TrialBalance",
+  SALES_DATE_WISE: "SalesDateWise",
+  SELES_CUSTOMER_WISE: "SalesCustomerWise",
+  PURCHASE_BOOK: "PurchaseBook",
+  CHANGE_PASSWORD: "ChangePassword",
+  USERS: "Users",
+  DEPARTMENT: "Department",
+  FINANCIAL_YEAR: "FinancialYear",
+  WAREHOUSE_TYPE: "WarehouseType",
+  STOCK_DAMAGES: "StockDamages",
+  PRODUCTS: "Products",
+  WAREHOUSE: "Warehouse",
+  COMPANY: "Company",
+  SalesItemWise: "SalesItemWise",
+  Permission: "ok",
+};
+
+export default permissionList;

@@ -1,0 +1,31 @@
+export interface ICompany {
+  Address: string;
+  BillFrontSizeItem: number;
+  BillFrontWeight: number;
+  BillFrontWeightHeader: number;
+  BillFrontWeightItem: number;
+  BillHeaderFront: string;
+  BillFrontSizeHeader : number;
+  PrinterType : string;
+  BranchCode: string;
+  City: string;
+  Description: string;
+  District: string;
+  Email: string;
+  ExciseDuty: number;
+  FirstPageRow: number;
+  IRD_Password: string;
+  IRD_SYS: string;
+  IRD_UserName: string;
+  Id: number;
+  IdentityFileName: string;
+  IdentityFileType: string;
+  NameEnglish: string;
+  NameNepali: string;
+  Pan_Vat: string;
+  Street: string;
+  Phone: string;
+  PhotoIdentity: string;
+  ServiceCharge: number;
+  VATRate: number;
+}

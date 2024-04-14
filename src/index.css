@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  /* background: transparent; */
+  background: rgba(235, 234, 234, 0.523);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(129, 129, 129);
+  border-radius: 50px;
+  outline: 0ch !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(98, 98, 98) !important;
+}
+
+.excelButton {
+  border: none;
+  background-color: transparent;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+@media all {
+  .pagebreak {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+@media print {
+  .pagebreak {
+    margin-top: 1rem;
+    display: block;
+    page-break-before: always;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 20mm;
+  margintop: 0.8rem;
+}
